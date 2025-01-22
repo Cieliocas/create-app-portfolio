@@ -8,7 +8,6 @@ const EstiloGlobal = createGlobalStyle`
 
   body {
     padding-top: 80px;
-    font-family: 'Roboto', sans-serif;
   }
 `;
 
