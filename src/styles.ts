@@ -15,4 +15,8 @@ export const Container = styled.div`
   margin: 0 auto;
   display: grid;
   grid-template-columns: 128px auto;
+
+  img {
+    max-width: 100%;
+  }
 `
