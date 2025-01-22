@@ -23,7 +23,7 @@ function Teste() {
       <Botao fontSize="14px" principal={false}>
         Cancelar
       </Botao>
-      <BotaoPerigo fontSize="12px" principal={false}>
+      <BotaoPerigo as="a" principal={false}>
         Não clique aqui
       </BotaoPerigo>
     </>
