@@ -1,12 +1,12 @@
 import React from 'react'
-import Teste from './Teste.tsx'
 import EstiloGlobal from './styles.ts'
+import Sidebar from './containers/Sidebar/index.tsx'
 
 function App() {
   return (
     <>
       <EstiloGlobal />
-      <Teste />
+      <Sidebar />
     </>
   )
 }
