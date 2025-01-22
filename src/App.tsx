@@ -1,6 +1,6 @@
 import React from 'react'
-import Teste from './Teste'
-import EstiloGlobal from './styles'
+import Teste from './Teste.tsx'
+import EstiloGlobal from './styles.ts'
 
 function App() {
   return (
