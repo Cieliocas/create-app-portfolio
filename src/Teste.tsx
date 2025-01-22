@@ -14,6 +14,10 @@ const Botao = styled.button`
 const BotaoPerigo = styled(Botao)`
   background-color: red;
   color: white;
+
+  span {
+    text-decoration: line-through;
+  }
 `
 
 function Teste() {
