@@ -1,10 +1,11 @@
-import Title from "../../components/Titulo"
+import Titulo from "../../components/Titulo/index.tsx"
+
 
 
 const Sidebar = () => (
   <aside>
     <img src="https://github.com/cieliocas.png" alt="upe" />
-    <Title>Cielio</Title>
+    <Titulo>Cielio</Titulo>
   </aside>
 )
 
