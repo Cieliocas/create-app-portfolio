@@ -1,4 +1,5 @@
 import { P } from './styles.ts'
+import React from 'react'
 
 export type Props = {
   children: string
