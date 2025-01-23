@@ -5,7 +5,7 @@ import Paragrafo from "../../components/Paragrafo/index.tsx"
 const Sobre = () => (
   <section>
     <Titulo fontSize={16}>Sobre mim</Titulo>
-    <Paragrafo>Olá, meu nome é Cielio, sou estudante de Ciência da Computação e estou aprendendo a programar.</Paragrafo>
+    <Paragrafo tipo="principal">Olá, meu nome é Cielio, sou estudante de Ciência da Computação e estou aprendendo a programar.</Paragrafo>
   </section>
 )
 
