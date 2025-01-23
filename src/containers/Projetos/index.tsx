@@ -2,7 +2,7 @@ import Titulo from "../../components/Titulo/index.tsx"
 
 
 const Projetos = () => (
-  <Titulo>Projetos</Titulo>
+  <Titulo fontSize={16}>Projetos</Titulo>
 )
 
 export default Projetos

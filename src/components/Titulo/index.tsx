@@ -2,7 +2,7 @@ import { Titulo as TituloEstilo } from './styles.ts'
 
 export type Props = {
   children: string
-  fontSize: number
+  fontSize?: number
 }
 
 const Titulo = (props: Props) => (
