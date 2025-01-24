@@ -1,15 +1,16 @@
 import React from "react"
 import Titulo from "../../components/Titulo/index.tsx"
 import Projeto from "../../components/Projeto/index.tsx"
+import { Lista } from "./styles.ts"
 
 const Projetos = () => (
   <section>
     <Titulo fontSize={16}>Projetos</Titulo>
-    <ul>
+    <Lista>
       <li>
         <Projeto />
       </li>
-    </ul>
+    </Lista>
   </section>
 )
 
