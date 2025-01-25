@@ -25,3 +25,9 @@ export const BotaoTema = styled.button`
     transition: background-color 0.7s;
   }
 `
+
+export const SidebarContainer = styled.div`
+  position: sticky;
+  top: 80px;
+  left: 0;
+`
