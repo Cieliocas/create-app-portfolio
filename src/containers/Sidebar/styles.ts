@@ -13,15 +13,16 @@ export const BotaoTema = styled.button`
   font-size: 12px;
   transition: background-color 0.3s;
   cursor: pointer;
-  background-color: black;
-  color: #fff;
-  border-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: ${(props) => props.theme.corDeFundoBotao};
+  color: ${(props) => props.theme.corDeFundo};
+  border: solid 1px;
+  border-color: ${(props) => props.theme.corPrincipal};
+  box-shadow: 0px 0px 4px ${(props) => props.theme.corPrincipal};
   font-weight: bold;
 
   &:hover {
-    background-color:rgb(255, 255, 255);
-    color: black;
+    background-color:${(props) => props.theme.corDeFundo};
+    color: ${(props) => props.theme.corPrincipal};
     transition: background-color 0.7s;
   }
 `
