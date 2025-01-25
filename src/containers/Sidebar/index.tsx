@@ -6,7 +6,7 @@ import React from "react"
 const Sidebar = () => (
   <aside>
     <Avatar />
-    <Titulo fontSize={20}>Cielio</Titulo>
+    <Titulo fontSize={20}>Cielio Castro</Titulo>
   </aside>
 )
 
