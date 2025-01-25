@@ -1,10 +1,11 @@
+import Avatar from "../../components/Avatar/index.tsx"
 import Titulo from "../../components/Titulo/index.tsx"
-
+import React from "react"
 
 
 const Sidebar = () => (
   <aside>
-    <img src="https://github.com/cieliocas.png" alt="upe" />
+    <Avatar />
     <Titulo fontSize={20}>Cielio</Titulo>
   </aside>
 )
